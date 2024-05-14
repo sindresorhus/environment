@@ -67,6 +67,28 @@ Check if the code is running in a [Shared Worker](https://developer.mozilla.org/
 
 Check if the code is running in a [Service Worker](https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerGlobalScope) environment.
 
+### `isMacOs`
+
+Check if the code is running on macOS.
+
+### `isWindows`
+
+Check if the code is running on Windows.
+
+### `isLinux`
+
+Check if the code is running on Linux.
+
+### `isIos`
+
+Check if the code is running on iOS.
+
+### `isAndroid`
+
+Check if the code is running on Android.
+
 ## Related
 
+- [is-in-ci](https://github.com/sindresorhus/is-in-ci) - Check if the process is running in a CI environment
+- [is64bit](https://github.com/sindresorhus/is64bit) - Check if the operating system CPU architecture is 64-bit or 32-bit
 - [is](https://github.com/sindresorhus/is) - Type check values

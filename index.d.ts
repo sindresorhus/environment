@@ -47,3 +47,28 @@ export const isSharedWorker: boolean;
 Check if the code is running in a [Service Worker](https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerGlobalScope) environment.
 */
 export const isServiceWorker: boolean;
+
+/**
+Check if the code is running on macOS.
+*/
+export const isMacOs: boolean;
+
+/**
+Check if the code is running on Windows.
+*/
+export const isWindows: boolean;
+
+/**
+Check if the code is running on Linux.
+*/
+export const isLinux: boolean;
+
+/**
+Check if the code is running on iOS.
+*/
+export const isIos: boolean;
+
+/**
+Check if the code is running on Android.
+*/
+export const isAndroid: boolean;
